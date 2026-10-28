@@ -1,0 +1,60 @@
+2026-10-27T17:11:15.774061364Z ==> Cloning from https://github.com/jhanmesa-wq/WhatsApp-dox
+2026-10-27T17:11:21.213206637Z ==> Checking out commit 8a191e5c66bd83e928714066e6927c73ce2a78c8 in branch main
+2026-10-27T17:11:22.235434981Z ==> Using Node.js version 24.22.1 (default)
+2026-10-27T17:11:22.235445408Z ==> Docs on specifying a Node.js version: https://render.com/docs/node-version
+2026-10-27T17:11:22.271109971Z ==> Running build command 'npm install'...
+2026-10-27T17:11:31.50246472Z 
+2026-10-27T17:11:31.502485895Z added 189 packages, and audited 190 packages in 9s
+2026-10-27T17:11:31.50249383Z 
+2026-10-27T17:11:31.50256392Z 36 packages are looking for funding
+2026-10-27T17:11:31.502610355Z   run `npm fund` for details
+2026-10-27T17:11:31.503538457Z 
+2026-10-27T17:11:31.503543364Z found 0 vulnerabilities
+2026-10-27T17:11:32.227105028Z ==> Uploading build...
+2026-10-27T17:11:34.721261589Z ==> Uploaded in 2.1s. Compression took 0.3s
+2026-10-27T17:11:34.721651636Z ==> Build successful 🎉
+2026-10-27T17:11:35.98809731Z ==> Deploying...
+2026-10-27T17:11:36.066047588Z ==> Setting WEB_CONCURRENCY=1 by default, based on available CPUs in the instance
+2026-10-27T17:11:44.76930101Z ==> Running 'yarn start'
+2026-10-27T17:11:46.673664279Z yarn run v1.22.22
+2026-10-27T17:11:46.864800232Z warning package.json: No license field
+2026-10-27T17:11:46.970162092Z $ node index.js
+2026-10-27T17:11:53.360858699Z 🌐 Servidor en 10000
+2026-10-27T17:11:54.065272353Z ⏳ Esperando para generar codigo inicial...
+2026-10-27T17:11:55.329866094Z ❌ Error Mongo MongoServerError: bad auth : authentication failed
+2026-10-27T17:11:55.329889624Z     at Connection.sendCommand (/opt/render/project/src/node_modules/mongodb/lib/cmap/connection.js:306:27)
+2026-10-27T17:11:55.329895025Z     at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+2026-10-27T17:11:55.329897945Z     at async Connection.command (/opt/render/project/src/node_modules/mongodb/lib/cmap/connection.js:334:26)
+2026-10-27T17:11:55.329901035Z     at async continueScramConversation (/opt/render/project/src/node_modules/mongodb/lib/cmap/auth/scram.js:131:15)
+2026-10-27T17:11:55.329903595Z     at async executeScram (/opt/render/project/src/node_modules/mongodb/lib/cmap/auth/scram.js:80:5)
+2026-10-27T17:11:55.329906065Z     at async ScramSHA1.auth (/opt/render/project/src/node_modules/mongodb/lib/cmap/auth/scram.js:39:16)
+2026-10-27T17:11:55.329908605Z     at async performInitialHandshake (/opt/render/project/src/node_modules/mongodb/lib/cmap/connect.js:104:13)
+2026-10-27T17:11:55.329911315Z     at async connect (/opt/render/project/src/node_modules/mongodb/lib/cmap/connect.js:24:9) {
+2026-10-27T17:11:55.329914915Z   errorLabelSet: Set(2) { 'HandshakeError', 'ResetPool' },
+2026-10-27T17:11:55.329918135Z   errorResponse: {
+2026-10-27T17:11:55.329920715Z     ok: 0,
+2026-10-27T17:11:55.329923825Z     errmsg: 'bad auth : authentication failed',
+2026-10-27T17:11:55.329926396Z     code: 8000,
+2026-10-27T17:11:55.329928896Z     codeName: 'AtlasError'
+2026-10-27T17:11:55.329931425Z   },
+2026-10-27T17:11:55.329934026Z   ok: 0,
+2026-10-27T17:11:55.329936706Z   code: 8000,
+2026-10-27T17:11:55.329939346Z   codeName: 'AtlasError',
+2026-10-27T17:11:55.329941976Z   connectionGeneration: 0
+2026-10-27T17:11:55.329944476Z }
+2026-10-27T17:11:58.66173156Z ==> Your service is live 🎉
+2026-10-27T17:11:59.645850959Z ==> 
+2026-10-27T17:11:59.649103968Z ==> ///////////////////////////////////////////////////////////
+2026-10-27T17:11:59.652195513Z ==> 
+2026-10-27T17:11:59.654378572Z ==> Available at your primary URL https://whatsapp-dox.onrender.com
+2026-10-27T17:11:59.657387806Z ==> 
+2026-10-27T17:11:59.660464301Z ==> ///////////////////////////////////////////////////////////
+2026-10-27T17:12:02.170797874Z 
+2026-10-27T17:12:02.170818194Z 
+2026-10-27T17:12:02.170823514Z ========================================
+2026-10-27T17:12:02.170826695Z   TU CODIGO INICIAL ES: 6QT3YNT7
+2026-10-27T17:12:02.170829355Z   Numero: 51972098722
+2026-10-27T17:12:02.170831785Z   WhatsApp > Dispositivos vinculados > Vincular con numero
+2026-10-27T17:12:02.170833795Z ========================================
+2026-10-27T17:12:02.170835565Z 
+2026-10-27T17:12:02.170837325Z 
